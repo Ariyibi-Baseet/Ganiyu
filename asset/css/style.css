@@ -11,6 +11,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+body p{
+  font-size:18px;
+}
 /* styling for navbar starts here */
 .navbar{
   background-color:var(--jackson-purple) !important;
@@ -129,6 +132,11 @@ section#home{
   padding:4px;
   position:relative;
 }
+
+.bg-text{
+  text-align:justify;
+}
+
 .abt-text::before{
   content:'';
   border:2px solid var(--french-rose);
@@ -162,5 +170,8 @@ section#home{
   position:absolute;
   bottom:4%;
   width:3.5em;
+}
+.port-p-text{
+  text-align:justify;
 }
 /* ends here */
