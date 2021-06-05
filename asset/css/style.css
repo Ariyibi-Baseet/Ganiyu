@@ -45,7 +45,7 @@ body{
 /* ends here */
 
 section{
-  height:100vh;
+  min-height:100vh;
   overflow-x:hidden;
   box-sizing:border-box;
 }
@@ -60,7 +60,7 @@ section#home{
 }
 
 .landing-area{
-  height:inherit;
+  min-height:inherit;
   position:relative;
 }
 
