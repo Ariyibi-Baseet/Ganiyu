@@ -105,25 +105,21 @@ section#home{
 }
 
 .social-icon{
-  padding-bottom:20px;
-}
-
-.social-icon a{
-  color:white;
+  border:1px solid var(--jackson-purple);
+  margin-left:10px;
+  font-size:23px;
   text-decoration:none;
-  font-size:25px;
-  border:hidden;
-  border-radius:70% 30% 40% 50%;
+  box-sizing:border-box;
+  border-radius:50%;
   padding:10px;
-  background-color:var(--jackson-purple);
-  /* background:var(--french-rose); */
 }
 
-.social-icon a:hover{
-  background-color:var(--french-rose) !important;
-  cursor:pointer !important;
-  color:white;
+.social-icon:hover{
+  cursor:pointer;
+  background-color:var(--french-rose);
+  transition:400ms ease-in;
 }
+
 /* ends here */
 
 /* styling for about section starts here */
@@ -158,9 +154,19 @@ section#home{
 /* ends here */
 
 /* styling for about section starts here */
-/* #contact{
-
-} */
+.contact-text{
+  color:var(--jackson-purple);
+  padding:4px;
+  position:relative;
+}
+.contact-text::before{
+  content:'';
+  border:2px solid var(--french-rose);
+  margin-left:3px;
+  position:absolute;
+  bottom:4%;
+  width:3.5em;
+}
 /* ends here */
 
 /* styling for portfolio section starts here */
@@ -175,12 +181,63 @@ section#home{
   margin-left:3px;
   position:absolute;
   bottom:4%;
-  width:3.5em;
+  width:3.7em;
 }
 .port-p-text{
   text-align:justify;
 }
+.port-btn{
+  background-color:var(--french-rose) !important;
+  border-color:var(--french-rose) !important;
+  outline-width:1px solid var(--french-rose) !important;
+}
 /* ends here */
+
+/* styling for blog section starts here */
+.blog-text{
+  color:var(--jackson-purple);
+  padding:4px;
+  position:relative;
+}
+.blog-text::before{
+  content:'';
+  border:2px solid var(--french-rose);
+  margin-left:3px;
+  position:absolute;
+  bottom:4%;
+  width:2em;
+}
+
+.card-header{
+  background-color:var(--french-rose) !important;
+  color:white;
+}
+
+.card-text{
+  font-size:15px;
+  font-weight:400;
+}
+.card:hover{
+  box-shadow:2px 4px 12px var(--mountbatten-pink);
+  border:hidden;
+  transition:400ms ease-in;
+  cursor: auto;
+}
+
+.blog-btn{
+  background-color:var(--french-rose) !important;
+  border-color:var(--french-rose) !important;
+  outline-width:1px solid var(--french-rose) !important;
+}
+
+.time{
+  font-size:12px;
+  text-align:right;
+  color:var(--mountbatten-pink);
+  font-weight:500;
+}
+/* ends here */
+
 
 /* styling for footer starts here */
 #footer{
@@ -193,6 +250,57 @@ section#home{
 
 .s-icon a{
   text-decoration:none;
+}
+
+.f-s-icon{
+  border:1px solid var(--jackson-purple);
+  margin-left:5px;
+  font-size:18px;
+  text-decoration:none;
+  box-sizing:border-box;
+  border-radius:50%;
+  padding:6px;
+}
+
+.f-s-icon:hover{
+  cursor:pointer;
+  color:white;
+  background-color:var(--french-rose);
+  transition:400ms ease-in;
+}
+/* ends here */
+
+/* styling for contact section starts here */
+.contact-btn{
+  background-color:var(--french-rose) !important;
+  border-color:var(--french-rose) !important;
+  outline-width:1px solid var(--french-rose) !important;
+}
+
+.contact-details,.project-opportunity,.social,label{
+  color:var(--jackson-purple);
+}
+
+.s-icon{
+  border:1px solid white;
+  margin-left:5px;
+  font-size:18px;
+  text-decoration:none;
+  box-sizing:border-box;
+  border-radius:50%;
+  color:var(--jackson-purple);
+  padding:6px;
+}
+
+.s-icon:hover{
+  cursor:pointer;
+  color:white;
+  background-color:var(--french-rose);
+  transition:400ms ease-in;
+}
+
+.c-s-icon{
+  color:var(--jackson-purple);
 }
 /* ends here */
 
