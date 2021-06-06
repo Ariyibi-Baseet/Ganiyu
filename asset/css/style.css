@@ -157,6 +157,12 @@ section#home{
 }
 /* ends here */
 
+/* styling for about section starts here */
+/* #contact{
+
+} */
+/* ends here */
+
 /* styling for portfolio section starts here */
 .port-text{
   color:var(--jackson-purple);
@@ -175,3 +181,18 @@ section#home{
   text-align:justify;
 }
 /* ends here */
+
+/* styling for footer starts here */
+#footer{
+  background-color:var(--jackson-purple);
+}
+.dev-opt{
+  color:var(--french-rose);
+  text-decoration:none;
+}
+
+.s-icon a{
+  text-decoration:none;
+}
+/* ends here */
+
